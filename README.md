@@ -2,7 +2,7 @@
 
 This is the code for our ECCV 2022 paper "Towards Open-vocabulary Scene Graph Generation with Prompt-based Finetuning".
 
-![image](https://github.com/ht014/svrp//master/frame.png)
+![image](https://github.com/ht014/svrp/blob/master/frame.png)
 ## Installation
 #### Pytorch
 ```
@@ -16,6 +16,8 @@ $ Please follow the official [instructrions](https://github.com/openai/CLIP) to 
 ```
 $ Check [INSTALL.md](https://github.com/facebookresearch/maskrcnn-benchmark/blob/main/INSTALL.md) to install maskrcnn. Then, adding the maskrcnn lib to your $PYTHONPATH, because our code uses the ROIAlign layer to extract the roi features.
 ```
+#### VG
+$ Please follow the Visual Genome project [sit](https://visualgenome.org/) to download the dataset.
 ## Pretraining and finetuning
 ```
 $ sh run_pretrain.sh # pretrain the visual relationship model. 
@@ -28,10 +30,10 @@ If you find this project helps your research, please kindly consider citing our 
 ```
 @InProceedings{he2021exploiting,
     author    = {He, Tao and Gao, Lianli and Song, Jingkuan and Li, Yuan-Fang},
-    title     = {Exploiting Scene Graphs for Human-Object Interaction Detection},
-    booktitle = {International Conference on Computer Vision(ICCV)},
-    year      = {2021},
-    url       = {https://arxiv.org/pdf/2108.08584}
+    title     = {Towards Open-vocabulary Scene Graph Generation with Prompt-based Finetuning},
+    booktitle = {European Conference on Computer Vision (ECCV)},
+    year      = {2022},
+    url       = {https://link.springer.com/chapter/10.1007/978-3-031-19815-1_4}
 }
 ```
 ## Acknowledgement

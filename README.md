@@ -9,15 +9,15 @@ This is the code for our ECCV 2022 paper "Towards Open-vocabulary Scene Graph Ge
 $ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
 ```
 #### CLIP
-```
-$ Please follow the official [instructrions](https://github.com/openai/CLIP) to install CLIP.
-```
+ 
+Please follow the official [instructrions](https://github.com/openai/CLIP) to install CLIP.
+ 
 #### maskrcnn
-```
-$ Check [INSTALL.md](https://github.com/facebookresearch/maskrcnn-benchmark/blob/main/INSTALL.md) to install maskrcnn. Then, adding the maskrcnn lib to your $PYTHONPATH, because our code uses the ROIAlign layer to extract the roi features.
-```
+ 
+Check [INSTALL.md](https://github.com/facebookresearch/maskrcnn-benchmark/blob/main/INSTALL.md) to install maskrcnn. Then, adding the maskrcnn lib to your $PYTHONPATH, because our code uses the ROIAlign layer to extract the roi features.
+ 
 #### VG
-$ Please follow the Visual Genome project [sit](https://visualgenome.org/) to download the dataset.
+Please follow the Visual Genome project [sit](https://visualgenome.org/) to download the dataset.
 ## Pretraining and finetuning
 ```
 $ sh run_pretrain.sh # pretrain the visual relationship model. 

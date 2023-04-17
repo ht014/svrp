@@ -2,7 +2,7 @@
 
 This is the code for our ECCV 2022 paper "Towards Open-vocabulary Scene Graph Generation with Prompt-based Finetuning".
 
-![image](https://github.com/ht014/svrp/blob/main/framework.png)
+![image](https://github.com/ht014/svrp//master/frame.png)
 ## Installation
 #### Pytorch
 ```
